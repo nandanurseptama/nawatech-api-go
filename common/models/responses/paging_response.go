@@ -1,7 +1,7 @@
 package responses
 
 // Paging Response
-type PagingResponse[T comparable] struct {
+type PagingResponse[T any] struct {
 	// Current page index
 	CurrentPage uint `json:"current_page"`
 

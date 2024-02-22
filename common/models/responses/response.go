@@ -1,6 +1,6 @@
 package responses
 
-type Response[T comparable] struct {
+type Response[T any] struct {
 	RequestId string  `json:"request_id"`
 	Status    string  `json:"status"`
 	Message   string  `json:"message,omitempty"`
