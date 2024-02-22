@@ -1,3 +1,3 @@
-module github.com/nawatech/backend/common
+module github.com/nandanurseptama/nawatech-api-go/common
 
 go 1.20
